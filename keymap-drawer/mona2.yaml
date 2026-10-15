@@ -42,7 +42,7 @@ layers:
   - {t: '-', h: SCRL_W}
   - BACKSPACE
   - ENTER
-  - RIGHT SHIFT
+  - {t: '&to_layer_0 RIGHT_SHIFT', h: BLE_M}
   MAC:
   - Q
   - W
@@ -506,7 +506,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: BT CLR, type: held}
+  - BT CLR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -515,7 +515,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&bootloader'
-  - BT CLR ALL
+  - {t: BT CLR ALL, type: held}
 combos:
 - p: [39, 38]
   k: {t: ESC, h: MOUSE_W}
