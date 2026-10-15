@@ -40,8 +40,8 @@ layers:
   - {t: '`', h: NUM_W}
   - {t: SPACE, h: MOUSE_W}
   - {t: '-', h: SCRL_W}
-  - ENTER
   - BACKSPACE
+  - ENTER
   - RIGHT SHIFT
   MAC:
   - Q
